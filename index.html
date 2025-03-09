@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ur.archive</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <section id="login">
+            <div class="user-name">
+                <form id="login-form">
+                    <input required="" maxlength="15" type="text" placeholder="Name">
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </section>
+        <main class="main hidden">
+            <header class="header">
+                <h1 class="fs-title boldEx">
+                    <span id="greeting"></span>'s Todo List
+                </h1>
+                <p class="fs-xs">all dreams are within reach. all you have to do is keep moving towards them.</p>
+            </header>
+            <article class="container">
+                <section class="todolist">
+                    <form id="todo-form">
+						<input type="text" placeholder="Write a To Do and Press Enter" required="">
+					</form>
+                    <ul id="todo-list"></ul>
+                </section>
+            </article>
+            <footer class="footer">
+                <p class="weather">
+                    <span class="fs-xs"></span>
+                    <span class="fs-xs"></span>
+                </p>
+                <p class="clock">
+                    <span class="fs-xs"></span>
+                </p>
+            </footer>
+        </main>
+    </div>
+    <!-- script -->
+    <script src="/script/background.js"></script>
+    <script src="/script/weather.js"></script>
+    <script src="/script/login.js"></script>
+    <script src="/script/clock.js"></script>
+    <script src="/script/todolist.js"></script>
+</body>
+</html>

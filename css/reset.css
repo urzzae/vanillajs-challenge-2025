@@ -1,0 +1,33 @@
+/* ---------- reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+a { text-decoration: none; }
+a:link{ text-decoration:none; }
+a:visited{ text-decoration:none; }
+a:hover{ text-decoration:none; }
+a:active{ text-decoration:none; }
+a:focus{ text-decoration:none; }
+img, figure { vertical-align: top; } /* 이미지 여백 제거 */
+ul, ol, li { list-style:none; }
+a { text-decoration: none; }
+dl, dt, dd, ol, ul { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6, strong, th { font-weight: inherit; font-size: inherit; }
+body, p, h1, h2, h3, h4, h5, h6 { margin: 0; }
+em, i { font-style: normal; }
+.clear:after,.clear:before{ content:""; display:block; visibility:hidden; clear:both; }
+.blind { clear:both; position:absolute; top:auto; left:0; overflow:hidden; width:1px; height:1px; padding:0; margin:0; font-size:0; line-height:0; }
+.blind:after { display:none; }
+button { border:0; background-color:none; cursor:pointer; font-size: inherit; font-family: inherit; }
+fieldset[disabled] input[type=checkbox], fieldset[disabled] input[type=radio], input[type=checkbox].disabled, input[type=checkbox][disabled], input[type=radio].disabled, input[type=radio][disabled] { cursor: not-allowed; }
+html { scroll-behavior: smooth; }
+body { overflow-y:scroll; -webkit-font-smoothing:antialiased; }
+#tistorytoolbarid { display:none; }
+iframe, video, embed, object { max-width:100%; }
+body, div, form, fieldset, legend, textarea, p, th, td, input, select, textarea, button { margin:0; padding:0; outline:none; }
+input:focus {
+    outline: none;
+}
+input, button {
+    -webkit-appearance:none; 
+    -moz-appearance:none; 
+    appearance:none; 
+}

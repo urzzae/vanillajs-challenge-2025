@@ -1,0 +1,30 @@
+:root {
+    --font-icon: 'tabler-icons';
+
+    /* color */
+    --color-point: #9795f0;
+    --color-sub: #fbc8d4;
+    --color-gr: linear-gradient(to top, var(--color-point) 0%, var(--color-sub) 100%);;
+
+    --color-def: #5d5957;
+    --color-line: #e9e9e9;
+    --color-gray: #a5a1a1;
+    --color-bgGray: #f9f9f9;
+
+    /* font-size */
+    --fs-def: 13px;
+    --fs-xs: 11px;
+    --fs-md: 16px;
+    --fs-lg: 22px;
+    --fs-title: 22px;
+
+    /* font-weight */
+    --fw-def: 500;
+    --fw-bold: 700;
+    --fw-boldEx: 900;
+
+    /* style */
+    --border-width: 2px;
+    --border-radius: 15px;
+    --line-border: 1px solid var(--lightGray);
+}
